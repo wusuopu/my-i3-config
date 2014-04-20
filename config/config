@@ -26,6 +26,8 @@ bindsym $mod+Shift+q exit
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec dmenu_run
+# start file manager
+bindsym $mod+e exec pcmanfm
 
 # change focus
 bindsym $mod+h focus left
@@ -52,10 +54,10 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
-bindsym $mod+z split h
+bindsym $mod+g split h
 
 # split in vertical orientation
-bindsym $mod+x split v
+bindsym $mod+v split v
 
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen
@@ -63,7 +65,7 @@ bindsym $mod+f fullscreen
 # change container layout (stacked, tabbed, default)
 bindsym $mod+s layout stacking
 bindsym $mod+w layout tabbed
-bindsym $mod+e layout default
+bindsym $mod+x layout default
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
